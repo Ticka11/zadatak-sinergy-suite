@@ -1,0 +1,77 @@
+.left-container {
+  box-sizing: border-box; }
+  .left-container .first-item {
+    background-color: black;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold; }
+  .left-container .category-items {
+    padding: 12px;
+    background-color: #e6e2dc;
+    outline: none;
+    cursor: pointer; }
+  .left-container span.rz-pointer.rz-pointer-min,
+  .left-container span.rz-pointer.rz-pointer-max {
+    top: 4px;
+    z-index: 3;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    background-color: #0db9f0;
+    border-radius: 16px;
+    transition: all linear 0.3s; }
+  .left-container span.rz-pointer.rz-pointer-min::after,
+  .left-container span.rz-pointer.rz-pointer-max::after {
+    display: none; }
+  .left-container button.md-raised.md-primary.md-button.md-ink-ripple {
+    background-color: black !important; }
+
+.right-container {
+  box-sizing: border-box; }
+  .right-container .header-photo {
+    height: 200px;
+    background-size: cover;
+    background-image: url("/app/assets/cover.jpg"); }
+  .right-container span.item-name {
+    color: black; }
+  .right-container .sorting-details {
+    border-bottom: 1px solid rgba(206, 200, 200, 0.712); }
+    .right-container .sorting-details .view-icons .grid-view-icon:hover,
+    .right-container .sorting-details .view-icons .list-view-icon:hover {
+      cursor: pointer;
+      color: #868482; }
+    .right-container .sorting-details .view-icons .grid-view-icon:focus,
+    .right-container .sorting-details .view-icons .list-view-icon:focus {
+      outline: 0 !important; }
+  .right-container .pagination-details-wrapper {
+    border-top: 1px solid rgba(206, 200, 200, 0.712);
+    margin-top: 5px; }
+    .right-container .pagination-details-wrapper .paging-box {
+      border-radius: 0;
+      border: 1px solid #868482;
+      padding: 0px 7px 0 7px;
+      color: #868482;
+      margin-right: 2px; }
+    .right-container .pagination-details-wrapper .paging-icon {
+      border: 1px solid #868482;
+      color: #868482;
+      font-size: 20px;
+      outline: 0;
+      margin: 0 2px; }
+      .right-container .pagination-details-wrapper .paging-icon:hover {
+        cursor: pointer; }
+  .right-container .list-view {
+    width: 100%; }
+
+.page-active-class {
+  background-color: rgba(128, 128, 128, 0.514);
+  color: white; }
+
+.active-class {
+  color: #e23399;
+  outline: none; }
+
+.inactive-class {
+  color: black; }

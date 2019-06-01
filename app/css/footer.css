@@ -1,0 +1,18 @@
+footer {
+  background-color: #eee;
+  position: absolute;
+  top: auto;
+  width: 100%; }
+  footer .social-media-icons {
+    width: 35px;
+    height: 35px;
+    margin: 1px !important; }
+  footer .connect-with-us {
+    border-bottom: white; }
+  footer .black-footer {
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    height: 35px;
+    vertical-align: center; }

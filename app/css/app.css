@@ -1,0 +1,122 @@
+body,
+html,
+md-content,
+.breadcrump-link,
+.breadcrumb {
+  background-color: white; }
+
+.container-align {
+  width: 1000px;
+  margin: auto;
+  padding: 0; }
+  .container-align .layout-padding {
+    padding: 0 10px 10px 0; }
+
+.breadcrump-link {
+  text-decoration: none;
+  color: black;
+  outline: none; }
+  .breadcrump-link:hover {
+    text-decoration: none;
+    font-weight: bold;
+    outline: 0;
+    color: black; }
+
+.breadcrumb {
+  margin: 15px 0; }
+
+select {
+  background-color: #dddddd;
+  border: none;
+  outline: none; }
+
+.tag-wrapper {
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: 3px 6px 3px 6px;
+  margin: 2px 2px 2px 2px; }
+
+.tag-active-class {
+  background-color: black !important;
+  color: white;
+  outline: none; }
+
+.tag-inactive-class {
+  background-color: white;
+  color: black;
+  outline: none; }
+
+.colored-title {
+  background-color: #f01b48;
+  margin-top: 40px;
+  color: white; }
+  .colored-title .icon {
+    border-right: 1px solid rgba(206, 200, 200, 0.712);
+    margin-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.compare-products-box {
+  border: 1px solid gray;
+  margin-top: 10px; }
+
+.box {
+  background-color: #f01b48;
+  padding: 6px;
+  margin-right: 5px; }
+
+.simple.slick-carousel .slick-next::before,
+.simple.slick-carousel .slick-prev::before {
+  color: #f01b48; }
+
+.simple.slick-carousel .slick-slide img {
+  margin: auto;
+  width: 84% !important;
+  height: 80px !important; }
+
+.simple.slick-carousel .slider-bottom {
+  width: 100%; }
+
+.margin-bottom {
+  margin-bottom: 20px; }
+
+.custom-list {
+  list-style-type: none;
+  display: contents; }
+  .custom-list li:hover {
+    cursor: pointer; }
+  .custom-list li:focus {
+    outline: 0; }
+
+a.product-link {
+  text-decoration: none; }
+  a.product-link:hover, a.product-link:visited, a.product-link:active, a.product-link:link {
+    outline: 0 !important;
+    text-decoration: none; }
+
+.product-image {
+  height: 150px;
+  width: 150px; }
+
+.photo-container {
+  position: relative; }
+
+.data-badge {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 10px;
+  z-index: 10;
+  background-color: #1edcb9;
+  font-size: 15px;
+  padding: 3px 13px 3px 13px; }
+
+.item-price {
+  color: #15d1af; }
+
+.photo-container .item-name,
+.photo-container .item-price {
+  width: 100%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+  text-align: center; }
